@@ -14,8 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 10px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.gist-info {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.fork-avatar {
+  margin: 0px 10px;
+}
+.gist-main {
+  display: flex;
+  justify-content: center;
+}
+.gist-main :nth-child(even) {
+  background-color: aliceblue;
 }
